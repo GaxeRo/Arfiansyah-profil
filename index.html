@@ -1,0 +1,205 @@
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rachmad Hidayat Arfiansyah — Profil</title>
+  <meta name="description" content="CV / Profil profesional Rachmad Hidayat Arfiansyah. Non-ATS, cocok untuk dipajang sebagai website pribadi." />
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#9aa4b2; --accent:#6ee7b7; --glass: rgba(255,255,255,0.03);
+      --maxw:1000px;
+      color-scheme: dark;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#071024 0%,#08111a 100%);color:#e6eef6;display:flex;justify-content:center;padding:36px}
+    .wrap{width:100%;max-width:var(--maxw)}
+    header{display:flex;gap:20px;align-items:center;margin-bottom:20px}
+    .photo{width:120px;height:120px;border-radius:16px;flex:0 0 120px;background:linear-gradient(135deg,var(--glass),transparent);display:grid;place-items:center;border:1px solid rgba(255,255,255,0.04);overflow:hidden}
+    .photo img{width:100%;height:100%;object-fit:cover}
+    .head-info{flex:1}
+    h1{margin:0;font-size:1.5rem;letter-spacing:0.2px}
+    .role{color:var(--accent);font-weight:600;margin-top:6px}
+    .meta{margin-top:8px;color:var(--muted);font-size:0.95rem}
+
+    .grid{display:grid;grid-template-columns:1fr 340px;gap:20px}
+    @media(max-width:900px){.grid{grid-template-columns:1fr;}.photo{width:96px;height:96px}}
+
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;padding:18px;border:1px solid rgba(255,255,255,0.03)}
+
+    section + section{margin-top:14px}
+    .section-title{font-weight:700;margin-bottom:8px}
+    p{color:var(--muted);line-height:1.5;margin:0}
+
+    /* Experience / Education list */
+    .item{padding:12px;border-radius:10px;background:rgba(255,255,255,0.01);margin-bottom:10px}
+    .item .title{font-weight:700}
+    .item .meta{font-size:0.9rem;color:var(--muted);margin-top:6px}
+
+    /* Skills */
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.02);font-weight:600;color:var(--muted);font-size:0.9rem}
+
+    /* Projects */
+    .project{display:flex;flex-direction:column;gap:6px;padding:12px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent)}
+
+    /* Contact */
+    .contact a{color:var(--accent);text-decoration:none;font-weight:600}
+
+    /* Print friendly */
+    @media print{
+      body{background:white;color:black}
+      :root{color-scheme:light}
+    }
+
+    /* small utilities */
+    .muted{color:var(--muted)}
+    .small{font-size:0.9rem}
+    .btn{display:inline-block;padding:8px 12px;border-radius:8px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.04);cursor:pointer}
+    .download{float:right}
+
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:0.9rem}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="photo card">
+        <!-- Ganti src dengan foto Anda atau gunakan <svg> placeholder -->
+        <img src="polos.png" alt="Foto profil" />
+      </div>
+      <div class="head-info">
+        <h1>Rachmad Hidayat Arfiansyah</h1>
+        <div class="role">Teknisi Jaringan • IT Support • Network Enthusiast</div>
+        <div class="meta">Surabaya, Indonesia · +62 881-0367-54632 · <a href="arfiansyah2702@gmail.com" style="color:var(--accent);text-decoration:none">arfiansyah2702@gmail.com</a></div>
+        <div style="margin-top:10px">
+          <button class="btn" onclick="window.print()">Cetak / Simpan PDF</button>
+          <a class="btn download" href="#contact" style="margin-left:8px">Hubungi</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="grid">
+      <div>
+        <section class="card">
+          <div class="section-title">Ringkasan Profesional</div>
+          <p>
+            Profesional lulusan SMK bidang Teknik Komputer dan Jaringan dengan pengalaman praktik instalasi dan konfigurasi jaringan (Mikrotik, switch, OSPF dasar), setup hotspot, serta troubleshooting perangkat keras dan layanan internet. Terbiasa bekerja lapangan dan dokumentasi teknis.
+          </p>
+        </section>
+
+        <section class="card">
+          <div class="section-title">Pengalaman Kerja</div>
+
+          <div class="item">
+            <div class="title">Teknisi Jaringan — STO Telkom Kalianak</div>
+            <div class="meta muted">Agust 2025 — Jan 2026 · Surabaya</div>
+            <div class="small muted" style="margin-top:8px">Tanggung jawab: instalasi ODP, konfigurasi Mikrotik, setup hotspot, monitoring jaringan, support pelanggan.</div>
+          </div>
+
+          <div class="item">
+            <div class="title">Magang — ISP Lokal</div>
+            <div class="meta muted">Jul 2022 — Des 2022 · Surabaya</div>
+            <div class="small muted" style="margin-top:8px">Membantu tim teknis melakukan pemasangan pelanggan baru, dokumentasi topologi, dan pengujian konektivitas.</div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-title">Pendidikan</div>
+          <div class="item">
+            <div class="title">SDN PRADAH KALIKENDAL 1</div>
+            <div class="meta muted">2014 — 2017 </div>
+          </div>
+		  
+		  <div class="item">
+            <div class="title">SDN PUTAT JAYA IV</div>
+            <div class="meta muted">2017 — 2020</div>
+          </div>
+		  
+		   <div class="item">
+            <div class="title">SMP NEGERI 33 SURABAYA</div>
+            <div class="meta muted">2020 — 2023</div>
+          </div>
+		  
+		  <div class="item">
+            <div class="title">SMK Negeri 7 Surabaya — Teknik Komputer dan Jaringan</div>
+            <div class="meta muted">2023 — 2026</div>
+            <div class="small muted" style="margin-top:8px">Mata pelajaran unggulan: Instalasi Jaringan, Routing & Switching, Sistem Operasi, Perangkat Keras.</div>
+          </div>
+		  
+        </section>
+
+        <section class="card">
+          <div class="section-title">Proyek Pilihan</div>
+          <div class="project">
+            <div class="title">Simulasi Jaringan ISP (Cisco Packet Tracer)</div>
+            <div class="muted small">Membangun topologi ISP kecil, konfigurasi NAT, hotspot, dan dokumentasi pengujian throughput.</div>
+          </div>
+          <div class="project">
+            <div class="title">Setup Hotspot Mikrotik untuk Kafe</div>
+            <div class="muted small">Desain captive portal, voucher pengguna, manajemen bandwidth.</div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-title">Sertifikasi & Kursus</div>
+          <div class="item">
+            <div class="title">INSYAALLAH YAHH!</div>
+            <div class="meta muted">2021</div>
+          </div>
+        </section>
+      </div>
+
+      <aside>
+        <section class="card">
+          <div class="section-title">Keahlian</div>
+          <div class="skills" style="margin-top:10px">
+            <div class="skill">Mikrotik</div>
+            <div class="skill">Routing & Switching</div>
+            <div class="skill">Cisco Packet Tracer</div>
+            <div class="skill">Installation & Cabling</div>
+            <div class="skill">Windows & Linux</div>
+            <div class="skill">Troubleshooting</div>
+            <div class="skill">Hotspot / Captive Portal</div>
+          </div>
+        </section>
+
+        <section class="card" id="contact" style="margin-top:14px">
+          <div class="section-title">Kontak</div>
+          <div class="small muted" style="margin-top:8px">
+            <div>Alamat: Surabaya, Jawa Timur</div>
+            <div>Telepon: +62 881-0367-45632</div>
+            <div>Email: <a href="arfiansyah2702@gmail.com">arfiansyah2702@gmail.com</a></div>
+            <div style="margin-top:8px">LinkedIn: <a href="#" class="muted">linkedin.com/in/username</a></div>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:14px">
+          <div class="section-title">Bahasa</div>
+          <div class="small muted" style="margin-top:8px">Indonesia (native) · Inggris (dasar-menengah) · Mandarin (dasar) </div>
+        </section>
+
+        <section class="card" style="margin-top:14px">
+          <div class="section-title">Tautan & Download</div>
+          <div style="margin-top:8px" class="small muted">
+            <div><a href="#" class="muted">Portfolio / GitHub</a></div>
+            <div style="margin-top:6px"><a href="#" class="muted">Unduh CV (PDF)</a></div>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <footer>
+      Dibuat menggunakan template CV personal — sesuaikan isi dan foto. 
+    </footer>
+  </div>
+
+  <!--
+    Cara pakai:
+    - Ganti nama, peran, kontak, dan isi tiap bagian sesuai data Anda.
+    - Ganti gambar placeholder dengan foto asli.
+    - Untuk menambahkan/menghapus bagian, salin blok <section>.
+    - Jika mau, saya bisa bantu ubah jadi template Blogger / GitHub Pages / React.
+  -->
+</body>
+</html>
